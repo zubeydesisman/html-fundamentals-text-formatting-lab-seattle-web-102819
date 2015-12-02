@@ -9,3 +9,5 @@
 The most authoritative source of packages for Sublime is [Package Control](https://packagecontrol.io/). You'll first want to make sure you install Package Control correctly by following [these instructions](https://packagecontrol.io/installation), and then you can easily grab any of the packages on that site directly within Sublime! [Emmet](https://packagecontrol.io/packages/Emmet) is a very popular autocomplete package and will probably suit your needs.
 
 With great power comes great responsibility. Many packages can and will slow Sublime down, so take care to only enable the ones you truly need to keep Sublime running at prime speed.
+
+<a href='https://learn.co/lessons/text-formatting' data-visibility='hidden'>View this lesson on Learn.co</a>
