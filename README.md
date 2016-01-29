@@ -10,4 +10,4 @@ The most authoritative source of packages for Sublime is [Package Control](https
 
 With great power comes great responsibility. Many packages can and will slow Sublime down, so take care to only enable the ones you truly need to keep Sublime running at prime speed.
 
-<a href='https://learn.co/lessons/text-formatting' data-visibility='hidden'>View this lesson on Learn.co</a>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/text-formatting' title='Text Formatting'>Text Formatting</a> on Learn.co and start learning to code for free.</p>
