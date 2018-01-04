@@ -11,3 +11,7 @@ The most authoritative source of packages for Sublime is [Package Control](https
 With great power comes great responsibility. Many packages can and will slow Sublime down, so take care to only enable the ones you truly need to keep Sublime running at prime speed.
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/text-formatting' title='Text Formatting'>Text Formatting</a> on Learn.co and start learning to code for free.</p>
+
+## IDE Instructions 
+
+If you're coding along using Atom or the desktop Learn IDE, you'll want to install Emmet using the [instructions on the Atom website](https://flight-manual.atom.io/using-atom/sections/atom-packages/). (This is because the Learn IDE is built on top of atom). If you're using the in browser IDE, the shortcuts in this video will not currently work. In that case, you may either use the desktop version of the IDE, or continue without using the shortcuts.
