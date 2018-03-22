@@ -56,75 +56,49 @@ This page will serve as our about page as well as our homepage, so we would want
 </body>
 ```
 
-                "our paragraphs below that sublime text",
-                "also offers a lot of amazing time savers",
-                "for example you can use code completion",
-                "to quickly and rapidly write tags so for",
-                "example let's say that I wanted to put a",
-                "paragraph here where I can do is type",
-                "the name of the tag that I'm interested",
-                "in creating and then simply hit the tab",
-                "key and it will create those opening and",
-                "closing tags for you again the way you",
-                "do that is you simply just type in the",
-                "name of the tag and then you hit the tab",
-                "key we can also put place filler texts",
-                "quickly and easily into this paragraph",
-                "by typing the word lorem and hitting the",
-                "tab key and that will put in this lorem",
-                "ipsum place filler text"
-            ]
-        },
-        {
-             start_offset: "05:26",
-               end_offset: "06:04",
-                  bullets: [
-                "all right and let's say for example that",
-                "you know in one of these paragraphs here",
-                "I wanted to actually push this text down",
-                "to the next line so what I can do then",
-                "is I can insert an element here called",
-                "the BR tag like this and the BR element",
-                "is going to take anything after this",
-                "comma and push it down to the next line",
-                "let's go ahead and take a look at that",
-                "for a second",
-                "so you can see here after the comma it",
-                "gets pushed down okay let's go ahead and",
-                "move on to the real estate listing page"
-            ]
-        },
-        {
-             start_offset: "06:04",
-               end_offset: "7:35",
-                  bullets: [
-                "alright and taking advantage of code",
-                "completion again we're going to save",
-                "ourselves a lot of time so remember",
-                "previously I made you write out the",
-                "doctype element these HTML elements",
-                "these head and body elements and it took",
-                "us a while before we actually got to the",
-                "point where we were able to fill in this",
-                "text content okay but this time on the",
-                "real estate listing page what I'd like",
-                "you to do is use code completion so",
-                "we're going to go ahead and hit shift in",
-                "the number 1 to create an exclamation",
-                "mark and then go ahead and hit the tab",
-                "key and you're gonna see that's quickly",
-                "going to write out the doctype tag the",
-                "HTML tag this head which already has the",
-                "meta and title in it as well as the body",
-                "element down here so we can just quickly",
-                "paste in the title from one of the other",
-                "pages okay and then on this page we'll",
-                "go ahead and paste in the heading that",
-                "we have on the other page here",
-                "and then under here we'll put in an h3",
-                "header and we'll put in property archive",
-                "and then under that we'll make an h4 and",
-                "for each age for would be a different",
-                "year"  
+With this, we can move on to another page on our site, but first, this is a great point to push our work up to the remote repository.
+
+```
+git add .
+git commit -m 'wrote our basic index.html'
+git push
+```
+
+#### Creating `real-estate-listings.html`
+
+The second HTML page we will make requires a lot of the same basic structure, and enough that developers will often use built-in text editor shortcuts or copy and paste from previously written pages. The only parts we need to change will be the visible content inside `<body>` and, our `<title>` content.
+
+We'll use a similar title structure as before and this time, replacing 'About' with 'Real Estate Listings', and copy and paste in the two headings we wrote in `index.html`.
+
+This time, instead of paragraph tags, let's add an `<h3>` with 'Property Archive' as the heading content, and below we'll add in a few `<h4>` tags for different archive years. Our page should look like:
+
+```
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Exceptional Realty Group - Luxury Homes - Real Estate Listings</title>
+  </head>
+  <body>
+    <h1>Exceptional</h1>
+    <h2>Realty Group</h2>
+
+    <h3>Property Archives</h3>
+    <h4>2017</h4>
+    <h4>2016</h4>
+    <h4>2015</h4>
+    <h4>2014</h4>
+    <h4>2013</h4>
+  </body>
+</html>
+```
+
+Before moving on, now that we've got two pages worth of content:
+
+```
+git add .
+git commit -m 'started real-estate-listings.html'
+git push
+```
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/text-formatting' title='Text Formatting'>Text Formatting</a> on Learn.co and start learning to code for free.</p>
