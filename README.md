@@ -84,11 +84,8 @@ This time, instead of paragraph tags, let's add an `<h3>` with 'Property Archive
     <h2>Realty Group</h2>
 
     <h3>Property Archives</h3>
-    <h4>2017</h4>
-    <h4>2016</h4>
-    <h4>2015</h4>
     <h4>2014</h4>
-    <h4>2013</h4>
+
   </body>
 </html>
 ```
