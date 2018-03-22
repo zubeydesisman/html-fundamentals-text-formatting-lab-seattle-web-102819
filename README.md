@@ -48,24 +48,22 @@ browser or start up `httpserver` and check out your website. You should see the
 new text displayed on the page (if you don't, make sure to hit 'refresh').
 
 Cool, we've got text on the page! Hit `return` twice so you're two lines below
-`Hello World`, and type `Hello Moon`. Head back over to your live website, and
-notice: The browser ignored the whitespace in your code! In order to actually
-format text, we will need to use HTML tags.
+`Hello World`, and type `Hello Moon`. Great, but very plain. In order to
+actually format text, we will need to use HTML elements.
 
 #### `<p>`
 
 On the same line as `Hello World`, right before, add `<p>`, and immediately
-following, type `</p>`. If you do the same for `Hello Moon`, then refresh, on
-your web page, you'll now see that the two lines are separated. The `<p>`
-stands for _paragraph_, and is used to wrap text with some built in formatting
-rules. Always make sure to close your tags - if you've left a tag open,
-subsequent tags may be interpreted by the browser as _nested_ within the first
-tag.
+following, `</p>`. If you do the same for `Hello Moon`, then refresh, on
+your web page, you should notice a change. The `<p>` stands for _paragraph_,
+and is used to wrap text with some built in formatting rules. Always make sure
+to close your tags - if you've left a tag open, subsequent tags may be
+interpreted by the browser as _nested_ within the first tag.
 
 #### `<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>`, and `<h6>`
 
 Aside from paragraphs, it would be nice to be able to indicate headings and
-subheadings in our page. The way we do this is by using the `h` tag, written
+subheadings in our page. The way we do this is by using _heading_ tags, written
 from largest to smallest as `<h1>` down to `<h6>`. Headings are useful for
 search engine optimization, with the largest heading, `<h1>`, carrying the
 highest importance to search engines.
@@ -76,9 +74,9 @@ closing `<h1>` tags, and then, on the next line, a smaller subheading that says
 refreshing the page, we can see that 'Exceptional' is much larger as an `<h1>`
 heading.
 
-This page will serve as our about page as well as our homepage, so we would
+This page will serve as our 'About' page as well as our homepage, so we would
 want to include some text on this page introducing the Exceptional Realty
-company. For now, we can put in filler text to help visualize the look of the
+Group. For now, we can put in filler text to help visualize the look of the
 page.
 
 ```
@@ -87,10 +85,10 @@ page.
   <h2>Realty Group</h2>
 
   <p>
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
   </p>
   <p>
-    "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
   </p>
 </body>
 ```
@@ -108,11 +106,12 @@ git push
 
 The second HTML page we will make requires a lot of the same basic structure,
 and enough that developers will often use built-in text editor shortcuts or
-copy and paste from previously written pages. The only parts we need to change
+copy and paste from previously written pages. We can go ahead and copy the
+structure of our `index.html` file. The only parts we need to change
 will be the visible content inside `<body>` and, our `<title>` content.
 
 We'll use a similar title structure as before and this time, replacing 'About'
-with 'Real Estate Listings', and copy and paste in the two headings we wrote
+with 'Listings', and use the same two headings we wrote
 in `index.html`.
 
 This time, instead of paragraph tags, let's add an `<h3>` with 'Property
@@ -124,7 +123,7 @@ different archive years. Our page should look like:
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>Exceptional Realty Group - Luxury Homes - Real Estate Listings</title>
+    <title>Exceptional Realty Group - Luxury Homes - Listings</title>
   </head>
   <body>
     <h1>Exceptional</h1>
@@ -138,7 +137,8 @@ different archive years. Our page should look like:
 ```
 
 Before moving on, now that we've got two pages worth of content, if you're
-working from your own repository:
+working from your own repository, add, commit and push to your remote
+repository again.
 
 ```
 git add .
