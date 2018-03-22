@@ -10,7 +10,7 @@ If you already have a personal repository:
 If you want to use the demo repository to follow along:
 
 * In your terminal, type `git clone https://github.com/learn-co-curriculum/exceptional-realty-demo`.
-* Type `cd exceptional-realy-demo` to navigate into the folder.
+* Type `cd exceptional-realty-demo` to navigate into the folder.
 * Type `git fetch text-formatting`, the branch for this lesson.
 * Type `git checkout text-formatting`, and you're good to go!
 
@@ -90,7 +90,7 @@ This time, instead of paragraph tags, let's add an `<h3>` with 'Property Archive
 </html>
 ```
 
-Before moving on, now that we've got two pages worth of content:
+Before moving on, now that we've got two pages worth of content, if you're working from your own repository:
 
 ```
 git add .
