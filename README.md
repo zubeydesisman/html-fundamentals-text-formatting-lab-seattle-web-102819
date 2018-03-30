@@ -19,10 +19,12 @@ git checkout main-pages
 
 If you want to use the demo repository to follow along:
 
-* In your terminal, type `git clone https://github.com/learn-co-curriculum/exceptional-realty-demo`.
-* Type `cd exceptional-realty-demo` to navigate into the folder.
-* Type `git fetch --all`, the branch for this lesson.
-* Type `git checkout text-formatting`, and you're good to go!
+```
+git clone https://github.com/learn-co-curriculum/exceptional-realty-demo
+cd exceptional-realty-demo
+git fetch --all
+git checkout text-formatting
+```
 
 **Remember to use `httpserver` to live test your webpage**
 
@@ -37,15 +39,14 @@ completing these lessons. Often, as a new programmer, taking the time to write
 out content manually can be very beneficial, so don't worry if you're not able
 to get these to work.
 
-### Text formatting
-
 ### Starting Out
 
-This lesson is all about formatting text in HTML. Since we know from the last
-lesson that all viewable text is contained within the `<body>` tag, let's start
-off by typing `Hello World` inside the `<body>` tags. Open `index.html` in your
-browser or start up `httpserver` and check out your website. You should see the
-new text displayed on the page (if you don't, make sure to hit 'refresh').
+This lesson is all about formatting text in HTML. Let's start
+off by typing `Hello World` inside the `<body>` tags, since we know from the
+previous lesson that all viewable page content is in the `<body>`. Open 
+`index.html` in your browser or start up `httpserver` and check out your
+website. You should see the new text displayed on the page (if you don't, 
+make sure to hit 'refresh').
 
 Cool, we've got text on the page! Hit `return` twice so you're two lines below
 `Hello World`, and type `Hello Moon`. Great, but very plain. In order to
