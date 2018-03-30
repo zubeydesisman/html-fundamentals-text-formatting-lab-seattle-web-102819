@@ -48,9 +48,10 @@ previous lesson that all viewable page content is in the `<body>`. Open
 website. You should see the new text displayed on the page (if you don't, 
 make sure to hit 'refresh').
 
-Cool, we've got text on the page! Hit `return` twice so you're two lines below
-`Hello World`, and type `Hello Moon`. Great, but very plain. In order to
-actually format text, we will need to use HTML elements.
+Cool, we've got text on the page! Go back to your editor, and hit `return`
+twice so you're two lines below `Hello World`, and type `Hello Moon`. 
+Great, but very plain. In order to actually format text, we will need to
+use HTML elements.
 
 #### `<p>`
 
@@ -94,8 +95,9 @@ page.
 </body>
 ```
 
-With this, we can move on to another page on our site, but first, this is a
-great point to push our work up to the remote repository.
+With this, we can move on to another page on our site, but first, if you are
+working from your own repository, this is a great point to push our work up
+to the remote.
 
 ```
 git add .
@@ -116,8 +118,8 @@ with 'Listings', and use the same two headings we wrote
 in `index.html`.
 
 This time, instead of paragraph tags, let's add an `<h3>` with 'Property
-Archive' as the heading content, and below we'll add in a few `<h4>` tags for
-different archive years. Our page should look like:
+Archive' as the heading content, and below we'll add in a `<h4>` tag for 2014. 
+Our page should look like:
 
 ```
 <!DOCTYPE html>
