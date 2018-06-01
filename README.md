@@ -15,7 +15,8 @@ important for formatting text.
 
 ## Objectives
 
-- Explore the text formatting tags for paragraphs and headers
+- Explore the different ways HTML applies default formatting
+- Learn about a few of the most common text formatting tags
 - Practice what we've learned by getting some content to appear on a web page
 
 ### Getting started
@@ -110,12 +111,13 @@ order to run other commands.
 
 There so are many HTML tags that we cannot discuss them all, and many of those
 tags apply default text formatting. Paragraph and header tags are just some of
-the most common. Remember, if part of HTML's purpose is to be a _semantic_
-wrapping, the wider your vocabulary on tags, the better equipped you are to give
-_meaning_ to plain text.
+the most common. The main take away here is that, by using the correct HTML tag,
+we can apply some simple formatting to turn plain text into something a bit more
+appealing.
 
-In modern web development, we use Cascading Style Sheets, a language for
-describing HTML styling, to handle anything beyond what
+Remember, if part of HTML's purpose is to be a _semantic_ wrapping, the wider
+your vocabulary on tags, the better equipped you are to give _meaning_ to plain
+text.
 
 ## Resources
 
