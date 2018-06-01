@@ -3,21 +3,19 @@
 ## Problem Statement
 
 In a browser, all visible content of an HTML document is contained within the
-`body` tag. The majority of time we spend building web pages is done in the
-`body` because of this - all the formatting and styling, adding in images and
-links, etc... is work being done the visible content of a web page. In modern
-HTML, there is actually quite a lot that can go into this work, but when it
-comes to getting started, the best place is in adding and formatting the _text_
-content.
+`body` tag. HTML developers spend most of their time here.  All the formatting
+and styling, adding in images and links, etc. is work being done the visible
+content of a web page. In modern HTML, there is actually quite a lot that can
+go into this work, but when it comes to getting started, the best place is by
+adding and formatting the _text_ content.
 
 In this lesson, we will be going over some the basic HTML tags that are
 important for formatting text.
 
 ## Objectives
 
-- Explore the different ways HTML applies default formatting
-- Learn about a few of the most common text formatting tags
-- Practice what we've learned by getting some content to appear on a web page
+1. Learn the most common text formatting tags
+2. Practice what we've learned by getting some content to appear on a web page
 
 ### Getting started
 
@@ -27,16 +25,19 @@ the `body`.
 
 First, let's get started by typing `Hello World` inside the `body` tags. With
 some content written, we can start up `httpserver` (or open `index.html` in the
-browser) and check out what we have. You should see the text 'Hello World' displayed on
-the page.
+browser) and [check out what we have][pages-in-learn-ide].  If you open a web
+tab that points to this You should see the text 'Hello World' displayed on the
+page.
 
 Cool, we've got text on the page! Head back to the text editor, and in
 `index.html`, hit `return` twice so you're two lines below `Hello World`. Here,
-type `Hello Moon`. Great, but very plain. In order to actually _format_ text, we
-will need to wrap our text in HTML tags. First, we'll start with formatting
-_paragraphs_
+type `Hello Moon`. Return to "viewing" browser tab and refresh. Great, but very
+plain. In order to actually _format_ text, we will need to wrap our text in
+HTML tags. First, we'll start with formatting _paragraphs_
 
-#### `p`
+## Learn The Most Common Text Formatting Tags
+
+### `p`
 
 On the same line as `Hello World`, right before, add `<p>`, and immediately
 following, `</p>`. If you do the same for `Hello Moon`, then refresh your web
@@ -50,7 +51,7 @@ The `p` tag is great for wrapping a one or more sentences of text. If there is a
 lot of content on a page, typically each paragraph would be wrapped in its own
 `p` tag, creating visually appealing breaks in the text.
 
-#### `<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>`, and `<h6>`
+### `<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>`, and `<h6>`
 
 Aside from paragraphs, it would be nice to be able to indicate titles, headings
 and subheadings in our page. The way we do this is by using _header_ tags,
@@ -69,7 +70,7 @@ useful for breaking up content into a more reader friendly structure.
 If you add `<h3>`, `<h4>`, `<h5>` and `<h6>` tags to the page, you'll see that
 each is slightly smaller than the last.
 
-##### Italic, Bold, Emphasis and Strong Tags
+### Italic, Bold, Emphasis and Strong Tags
 
 Sometimes, when it comes to formatting, we want to add some emphasis to a small
 part of our text, typically by _italicizing_ a word or a phrase.  In this case,
@@ -115,14 +116,10 @@ the most common. The main take away here is that, by using the correct HTML tag,
 we can apply some simple formatting to turn plain text into something a bit more
 appealing.
 
-Remember, if part of HTML's purpose is to be a _semantic_ wrapping, the wider
-your vocabulary on tags, the better equipped you are to give _meaning_ to plain
-text.
-
 ## Resources
 
 - [HTML Tag Reference](https://www.w3schools.com/tags/tag_i.asp)
 
-
+[pages-in-learn-ide]: http://help.learn.co/the-learn-ide/common-ide-questions/viewing-html-pages-in-the-learn-ide
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/text-formatting' title='Text Formatting'>Text Formatting</a> on Learn.co and start learning to code for free.</p>
