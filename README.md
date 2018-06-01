@@ -1,152 +1,126 @@
-# Text Formatting
+# Text Formatting in HTML
 
-### Cloning Down Your Repository
+## Problem Statement
 
-If you already have a personal repository:
+In a browser, all visible content of an HTML document is contained within the
+`body` tag. The majority of time we spend building web pages is done in the
+`body` because of this - all the formatting and styling, adding in images and
+links, etc... is work being done the visible content of a web page. In modern
+HTML, there is actually quite a lot that can go into this work, but when it
+comes to getting started, the best place is in adding and formatting the _text_
+content.
 
-* Open the Learn IDE, and in the terminal, type
+In this lesson, we will be going over some the basic HTML tags that are
+important for formatting text.
 
-```
-git clone https://github.com/<your_username_here>/exceptional-realty
-cd exceptional-realty
-git fetch --all
-git checkout main-pages
-```
+## Objectives
 
-* A folder with your previous work will appear in the IDE file tree, all
-  remote branches will be retrieved, and you will then switch to the
-  `main-pages` branch we started in the previous lesson.
+- Explore the text formatting tags for paragraphs and headers
+- Practice what we've learned by getting some content to appear on a web page
 
-If you want to use the demo repository to follow along:
+### Getting started
 
-```
-git clone https://github.com/learn-co-curriculum/exceptional-realty-demo
-cd exceptional-realty-demo
-git fetch --all
-git checkout text-formatting
-```
+Open `index.html` and take a look at what is there. We see that we have the
+basic HTML skeleton provided, so all we need to focus on is adding content to
+the `body`.
 
-**Remember to use `httpserver` to live test your webpage**
+First, let's get started by typing `Hello World` inside the `body` tags. With
+some content written, we can start up `httpserver` (or open `index.html` in the
+browser) and check out what we have. You should see the text 'Hello World' displayed on
+the page.
 
-<iframe width="640" height="480" src="//www.youtube.com/embed/toswcv5oj9I?rel=0&modestbranding=1" frameborder="0" allowfullscreen></iframe>
+Cool, we've got text on the page! Head back to the text editor, and in
+`index.html`, hit `return` twice so you're two lines below `Hello World`. Here,
+type `Hello Moon`. Great, but very plain. In order to actually _format_ text, we
+will need to wrap our text in HTML tags. First, we'll start with formatting
+_paragraphs_
 
-<p><a href="https://www.youtube.com/watch?v=toswcv5oj9I">Text Formatting</a></p>
-
-**Note that you may see some fancy autocomplete actions in this video**. Many
-of these shortcuts are dependent on specific text editors, in this case,
-Sublime. While it is good to learn that these exist, they are not critical to
-completing these lessons. Often, as a new programmer, taking the time to write
-out content manually can be very beneficial, so don't worry if you're not able
-to get these to work.
-
-### Starting Out
-
-This lesson is all about formatting text in HTML. Let's start
-off by typing `Hello World` inside the `<body>` tags, since we know from the
-previous lesson that all viewable page content is in the `<body>`. Open 
-`index.html` in your browser or start up `httpserver` and check out your
-website. You should see the new text displayed on the page (if you don't, 
-make sure to hit 'refresh').
-
-Cool, we've got text on the page! Go back to your editor, and hit `return`
-twice so you're two lines below `Hello World`, and type `Hello Moon`. 
-Great, but very plain. In order to actually format text, we will need to
-use HTML elements.
-
-#### `<p>`
+#### `p`
 
 On the same line as `Hello World`, right before, add `<p>`, and immediately
-following, `</p>`. If you do the same for `Hello Moon`, then refresh, on
-your web page, you should notice a change. The `<p>` stands for _paragraph_,
-and is used to wrap text with some built in formatting rules. Always make sure
-to close your tags - if you've left a tag open, subsequent tags may be
-interpreted by the browser as _nested_ within the first tag.
+following, `</p>`. If you do the same for `Hello Moon`, then refresh your web
+page in the browser, you should notice a change. The `p` stands for
+_paragraph_, and is used to wrap text with some built in formatting rules.
+Content wrapped in `p` tags will be given a small buffer of space around it,
+what we call a 'margin', which prevents the text from running right up against
+other content.
+
+The `p` tag is great for wrapping a one or more sentences of text. If there is a
+lot of content on a page, typically each paragraph would be wrapped in its own
+`p` tag, creating visually appealing breaks in the text.
 
 #### `<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>`, and `<h6>`
 
-Aside from paragraphs, it would be nice to be able to indicate headings and
-subheadings in our page. The way we do this is by using _heading_ tags, written
-from largest to smallest as `<h1>` down to `<h6>`. Headings are useful for
-search engine optimization, with the largest heading, `<h1>`, carrying the
-highest importance to search engines.
+Aside from paragraphs, it would be nice to be able to indicate titles, headings
+and subheadings in our page. The way we do this is by using _header_ tags,
+written from the largest, `<h1>`, down to the smallest, `<h6>`.
 
-Above our `<p>` tags, inside `<body>`, write `Exceptional` within opening and
+Above our `p` tags, inside the `body`, write `Title` within opening and
 closing `<h1>` tags, and then, on the next line, a smaller subheading that says
-`Realty Group` using `<h2>`. If we save and look at the HTML in our browser,
-refreshing the page, we can see that 'Exceptional' is much larger as an `<h1>`
+`Subtitle` using `<h2>`. If we save and look at the HTML in our browser,
+refreshing the page, we can see that 'Title' appears much larger as an `<h1>`
 heading.
 
-This page will serve as our 'About' page as well as our homepage, so we would
-want to include some text on this page introducing the Exceptional Realty
-Group. For now, we can put in filler text to help visualize the look of the
-page.
+Headers are useful for search engine optimization, with the largest heading,
+`<h1>`, carrying the highest importance to search engines. They are also very
+useful for breaking up content into a more reader friendly structure.
 
-```
-<body>
-  <h1>Exceptional</h1>
-  <h2>Realty Group</h2>
+If you add `<h3>`, `<h4>`, `<h5>` and `<h6>` tags to the page, you'll see that
+each is slightly smaller than the last.
 
-  <p>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-  </p>
-  <p>
-    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-  </p>
-</body>
-```
+##### Italic, Bold, Emphasis and Strong Tags
 
-With this, we can move on to another page on our site, but first, if you are
-working from your own repository, this is a great point to push our work up
-to the remote.
+Sometimes, when it comes to formatting, we want to add some emphasis to a small
+part of our text, typically by _italicizing_ a word or a phrase.  In this case,
+we can use `<em>`, for emphasis. In addition, for times when we want to **bold
+text**, we have `<b>`:
 
-```
-git add .
-git commit -m 'add body content to index.html'
-git push
+```html
+<p>
+  <em>Hello World!</em>
+  <strong>Warning!</strong>
+</p>
 ```
 
-#### Creating `real-estate-listings.html`
+If you've dabbled in HTML before, you may be aware that there are two other tags
+that can also be used, `<i>`, for _italics_ and `<b>` for **bold**.  The `<em>`
+and `<strong>` tags were introduced in HTML5 and are newer than `<i>` and `<b>`.
+They are part of a shift in the language to emphasize the _semantic_ use of HTML
+rather than stylistic use. HTML is a language to _markup_ hypertext; the idea
+behind these new tags is that they give _meaning_ to what they wrap, rather than
+just styling. Subsequently, the use cases of `<b>` and `<i>` changed:
 
-The second HTML page we will make requires a lot of the same basic structure,
-and enough that developers will often use built-in text editor shortcuts or
-copy and paste from previously written pages. We can go ahead and copy the
-structure of our `index.html` file. The only parts we need to change
-will be the visible content inside `<body>` and, our `<title>` content.
+* `<b>` - bolds text for stylistic reasons
+* `<i>` - used for text that is in an alternate voice, such as a definition or foreign word
+* `<em>` - wraps text content that is meant to be emphasized
+* `<strong>` - wraps text that is of importance, such as a warning message
 
-We'll use a similar title structure as before and this time, replacing 'About'
-with 'Listings', and use the same two headings we wrote
-in `index.html`.
+So, while `<i>` and `<em>` both italicize, and `<b>` and `<strong>` both bold
+text, they are really understood to have four separate use cases.
 
-This time, instead of paragraph tags, let's add an `<h3>` with 'Property
-Archive' as the heading content, and below we'll add in a `<h4>` tag for 2014. 
-Our page should look like:
+## Challenge
 
-```
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Exceptional Realty Group - Luxury Homes - Listings</title>
-  </head>
-  <body>
-    <h1>Exceptional</h1>
-    <h2>Realty Group</h2>
+Okay, it is time to apply what we've learned. In the `index.html`, there are
+comments regarding the specific deliverables for this lab.  Run `httpserver` or
+open the file in browser to see the results.  To run the tests, run `learn` in
+the command line. If you have the server running, use `ctrl` + `C` to stop it in
+order to run other commands.
 
-    <h3>Property Archives</h3>
-    <h4>2014</h4>
+## Conclusion
 
-  </body>
-</html>
-```
+There so are many HTML tags that we cannot discuss them all, and many of those
+tags apply default text formatting. Paragraph and header tags are just some of
+the most common. Remember, if part of HTML's purpose is to be a _semantic_
+wrapping, the wider your vocabulary on tags, the better equipped you are to give
+_meaning_ to plain text.
 
-Before moving on, now that we've got two pages worth of content, if you're
-working from your own repository, add, commit and push to your remote
-repository again.
+In modern web development, we use Cascading Style Sheets, a language for
+describing HTML styling, to handle anything beyond what
 
-```
-git add .
-git commit -m 'started real-estate-listings.html'
-git push
-```
+## Resources
+
+- [HTML Tag Reference](https://www.w3schools.com/tags/tag_i.asp)
+
+
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/text-formatting' title='Text Formatting'>Text Formatting</a> on Learn.co and start learning to code for free.</p>
