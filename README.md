@@ -103,10 +103,15 @@ text, they are really understood to have four separate use cases.
 ## Challenge
 
 Okay, it is time to apply what we've learned. In the `index.html`, there are
-comments regarding the specific deliverables for this lab.  Run `httpserver` or
-open the file in browser to see the results.  To run the tests, run `learn` in
-the command line. If you have the server running, use `ctrl` + `C` to stop it in
-order to run other commands.
+comments regarding the specific deliverables for this lab.
+
+Run `httpserver` and open the file in browser to see what your HTML looks like.
+If you have the server running, use `ctrl` + `C` to stop it in order to run
+other commands.  Once you've done as the comments request, run the `learn`
+program in the terminal to see whether you've met the tests' expectations.
+
+Keep in mind that after you fix one test, you might face a new one! The tests
+are guiding you.
 
 ## Conclusion
 
