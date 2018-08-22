@@ -24,9 +24,8 @@ basic HTML skeleton provided, so all we need to focus on is adding content to
 the `body`.
 
 First, let's get started by typing `Hello World` inside the `body` tags. With
-some content written, we can start up `httpserver` (or open `index.html` in the
-browser) and [check out what we have][pages-in-learn-ide].  If you open a web
-tab that points to this You should see the text 'Hello World' displayed on the
+some content written, we can start up `httpserver` and [check out what we have][pages-in-learn-ide].  If you open a web
+tab that points to this you should see the text 'Hello World' displayed on the
 page.
 
 Cool, we've got text on the page! Head back to the text editor, and in
