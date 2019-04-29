@@ -3,8 +3,8 @@
 ## Problem Statement
 
 In a browser, all visible content of an HTML document is contained within the
-`body` tag. HTML developers spend most of their time here.  All the formatting
-and styling, adding in images and links, etc. is work being done the visible
+`body` tag. HTML developers spend most of their time here. All the formatting
+and styling, adding in images and links, etc. is work being done for the visible
 content of a web page. In modern HTML, there is actually quite a lot that can
 go into this work, but when it comes to getting started, the best place is by
 adding and formatting the _text_ content.
