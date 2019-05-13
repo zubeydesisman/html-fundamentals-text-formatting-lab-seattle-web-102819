@@ -1,6 +1,11 @@
 # Text Formatting in HTML
 
-## Problem Statement
+## Learning Goals
+
+1. Identify the most common text formatting tags
+2. Practice what we've learned by getting some content to appear on a web page
+
+## Introduction
 
 In a browser, all visible content of an HTML document is contained within the
 `body` tag. HTML developers spend most of their time here. All the formatting
@@ -11,11 +16,6 @@ adding and formatting the _text_ content.
 
 In this lesson, we will be going over some the basic HTML tags that are
 important for formatting text.
-
-## Objectives
-
-1. Identify the most common text formatting tags
-2. Practice what we've learned by getting some content to appear on a web page
 
 ### Getting started
 
