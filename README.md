@@ -14,7 +14,7 @@ important for formatting text.
 
 ## Objectives
 
-1. Learn the most common text formatting tags
+1. Identify the most common text formatting tags
 2. Practice what we've learned by getting some content to appear on a web page
 
 ### Getting started
@@ -34,7 +34,7 @@ type `Hello Moon`. Return to "viewing" browser tab and refresh. Great, but very
 plain. In order to actually _format_ text, we will need to wrap our text in
 HTML tags. First, we'll start with formatting _paragraphs_
 
-## Learn The Most Common Text Formatting Tags
+## Identify The Most Common Text Formatting Tags
 
 ### `p`
 
