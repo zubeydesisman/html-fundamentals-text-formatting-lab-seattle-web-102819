@@ -3,7 +3,7 @@
 ## Learning Goals
 
 1. Identify the most common text formatting tags
-2. Practice what we've learned by getting some content to appear on a web page
+2. Apply HTML concepts to display content on a web page
 
 ## Introduction
 
@@ -99,7 +99,7 @@ just styling. Subsequently, the use cases of `<b>` and `<i>` changed:
 So, while `<i>` and `<em>` both italicize, and `<b>` and `<strong>` both bold
 text, they are really understood to have four separate use cases.
 
-## Challenge
+## Apply HTML Concepts to Display Content on a Web Page
 
 Okay, it is time to apply what we've learned. In the `index.html`, there are
 comments regarding the specific deliverables for this lab.
