@@ -112,6 +112,8 @@ program in the terminal to see whether you've met the tests' expectations.
 Keep in mind that after you fix one test, you might face a new one! The tests
 are guiding you.
 
+![Final Product](https://curriculum-content.s3.amazonaws.com/html-fundamendals/text-formatting-lab/screenshot.png)
+
 ## Conclusion
 
 There so are many HTML tags that we cannot discuss them all, and many of those
